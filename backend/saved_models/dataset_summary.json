@@ -1,0 +1,333 @@
+{
+  "total_records": 50000,
+  "total_features": 23,
+  "avg_age": 45.0,
+  "avg_income": 44312.0,
+  "avg_commute": 35.2,
+  "avg_ev_knowledge": 6.8,
+  "avg_environmental_awareness": 6.8,
+  "avg_range_anxiety": 5.3,
+  "avg_technology_affinity": 6.7,
+  "avg_energy_consumption": 186.7,
+  "avg_charging_cost": 40.2,
+  "adoption_distribution": {
+    "High": 29670,
+    "Medium": 12078,
+    "Low": 8252
+  },
+  "city_type_distribution": {
+    "Urban": 22645,
+    "Suburban": 17348,
+    "Rural": 10007
+  },
+  "vehicle_type_distribution": {
+    "Sedan": 17512,
+    "SUV": 14933,
+    "Hatchback": 12561,
+    "Truck": 4994
+  },
+  "education_distribution": {
+    "Bachelor": 22350,
+    "High School": 12401,
+    "Master": 12244,
+    "PhD": 2505
+  },
+  "home_charging_distribution": {
+    "1": 32488,
+    "0": 17512
+  },
+  "age_distribution": [
+    {
+      "range": "21.0-25.8",
+      "count": 5156
+    },
+    {
+      "range": "25.8-30.6",
+      "count": 4984
+    },
+    {
+      "range": "30.6-35.4",
+      "count": 5117
+    },
+    {
+      "range": "35.4-40.2",
+      "count": 5009
+    },
+    {
+      "range": "40.2-45.0",
+      "count": 4159
+    },
+    {
+      "range": "45.0-49.8",
+      "count": 5186
+    },
+    {
+      "range": "49.8-54.6",
+      "count": 5151
+    },
+    {
+      "range": "54.6-59.4",
+      "count": 5145
+    },
+    {
+      "range": "59.4-64.2",
+      "count": 5034
+    },
+    {
+      "range": "64.2-69.0",
+      "count": 5059
+    }
+  ],
+  "income_distribution": [
+    {
+      "range": "5104.0-29593.6",
+      "count": 16868
+    },
+    {
+      "range": "29593.6-54083.2",
+      "count": 19542
+    },
+    {
+      "range": "54083.2-78572.8",
+      "count": 8638
+    },
+    {
+      "range": "78572.8-103062.4",
+      "count": 3168
+    },
+    {
+      "range": "103062.4-127552.0",
+      "count": 1157
+    },
+    {
+      "range": "127552.0-152041.6",
+      "count": 417
+    },
+    {
+      "range": "152041.6-176531.2",
+      "count": 119
+    },
+    {
+      "range": "176531.2-201020.8",
+      "count": 51
+    },
+    {
+      "range": "201020.8-225510.4",
+      "count": 23
+    },
+    {
+      "range": "225510.4-250000.0",
+      "count": 17
+    }
+  ],
+  "range_anxiety_distribution": [
+    {
+      "range": "2.0-2.8",
+      "count": 5646
+    },
+    {
+      "range": "2.8-3.6",
+      "count": 5987
+    },
+    {
+      "range": "3.6-4.4",
+      "count": 6959
+    },
+    {
+      "range": "4.4-5.2",
+      "count": 7658
+    },
+    {
+      "range": "5.2-6.0",
+      "count": 6959
+    },
+    {
+      "range": "6.0-6.8",
+      "count": 4750
+    },
+    {
+      "range": "6.8-7.6",
+      "count": 4128
+    },
+    {
+      "range": "7.6-8.4",
+      "count": 2822
+    },
+    {
+      "range": "8.4-9.2",
+      "count": 2459
+    },
+    {
+      "range": "9.2-10.0",
+      "count": 2632
+    }
+  ],
+  "charging_accessibility_distribution": [
+    {
+      "range": "1.0-1.9",
+      "count": 1662
+    },
+    {
+      "range": "1.9-2.8",
+      "count": 2257
+    },
+    {
+      "range": "2.8-3.7",
+      "count": 3959
+    },
+    {
+      "range": "3.7-4.6",
+      "count": 5686
+    },
+    {
+      "range": "4.6-5.5",
+      "count": 7264
+    },
+    {
+      "range": "5.5-6.4",
+      "count": 7834
+    },
+    {
+      "range": "6.4-7.3",
+      "count": 7106
+    },
+    {
+      "range": "7.3-8.2",
+      "count": 5739
+    },
+    {
+      "range": "8.2-9.1",
+      "count": 3899
+    },
+    {
+      "range": "9.1-10.0",
+      "count": 4094
+    }
+  ],
+  "energy_distribution": [
+    {
+      "range": "15.6-78.6",
+      "count": 5098
+    },
+    {
+      "range": "78.6-141.7",
+      "count": 11128
+    },
+    {
+      "range": "141.7-204.7",
+      "count": 14438
+    },
+    {
+      "range": "204.7-267.7",
+      "count": 10677
+    },
+    {
+      "range": "267.7-330.8",
+      "count": 5499
+    },
+    {
+      "range": "330.8-393.8",
+      "count": 2147
+    },
+    {
+      "range": "393.8-456.8",
+      "count": 753
+    },
+    {
+      "range": "456.8-519.8",
+      "count": 197
+    },
+    {
+      "range": "519.8-582.9",
+      "count": 53
+    },
+    {
+      "range": "582.9-645.9",
+      "count": 10
+    }
+  ],
+  "charging_cost_distribution": [
+    {
+      "range": "1.4-21.2",
+      "count": 12142
+    },
+    {
+      "range": "21.2-41.0",
+      "count": 17319
+    },
+    {
+      "range": "41.0-60.9",
+      "count": 11178
+    },
+    {
+      "range": "60.9-80.7",
+      "count": 5698
+    },
+    {
+      "range": "80.7-100.5",
+      "count": 2380
+    },
+    {
+      "range": "100.5-120.3",
+      "count": 895
+    },
+    {
+      "range": "120.3-140.1",
+      "count": 284
+    },
+    {
+      "range": "140.1-160.0",
+      "count": 77
+    },
+    {
+      "range": "160.0-179.8",
+      "count": 20
+    },
+    {
+      "range": "179.8-199.6",
+      "count": 7
+    }
+  ],
+  "commute_distribution": [
+    {
+      "range": "5.0-14.3",
+      "count": 4156
+    },
+    {
+      "range": "14.3-23.6",
+      "count": 6922
+    },
+    {
+      "range": "23.6-32.9",
+      "count": 11023
+    },
+    {
+      "range": "32.9-42.2",
+      "count": 12039
+    },
+    {
+      "range": "42.2-51.5",
+      "count": 9020
+    },
+    {
+      "range": "51.5-60.7",
+      "count": 4628
+    },
+    {
+      "range": "60.7-70.0",
+      "count": 1691
+    },
+    {
+      "range": "70.0-79.3",
+      "count": 438
+    },
+    {
+      "range": "79.3-88.6",
+      "count": 72
+    },
+    {
+      "range": "88.6-97.9",
+      "count": 11
+    }
+  ]
+}

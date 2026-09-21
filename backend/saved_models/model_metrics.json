@@ -1,0 +1,431 @@
+{
+  "adoption": {
+    "best_model": "Logistic Regression",
+    "comparison": {
+      "Logistic Regression": {
+        "accuracy": 0.8784,
+        "precision": 0.8775,
+        "recall": 0.8784,
+        "f1_score": 0.8779
+      },
+      "Decision Tree": {
+        "accuracy": 0.8086,
+        "precision": 0.8111,
+        "recall": 0.8086,
+        "f1_score": 0.8094
+      },
+      "Random Forest": {
+        "accuracy": 0.8524,
+        "precision": 0.8519,
+        "recall": 0.8524,
+        "f1_score": 0.8519
+      },
+      "Gradient Boosting": {
+        "accuracy": 0.8632,
+        "precision": 0.8633,
+        "recall": 0.8632,
+        "f1_score": 0.863
+      }
+    },
+    "feature_importance": [
+      {
+        "feature": "education_level",
+        "importance": 0.1276
+      },
+      {
+        "feature": "city_type",
+        "importance": 0.1276
+      },
+      {
+        "feature": "current_vehicle_type",
+        "importance": 0.1276
+      },
+      {
+        "feature": "range_anxiety_score",
+        "importance": 0.0852
+      },
+      {
+        "feature": "environmental_awareness_score",
+        "importance": 0.0799
+      },
+      {
+        "feature": "technology_affinity_score",
+        "importance": 0.0745
+      },
+      {
+        "feature": "charging_station_accessibility",
+        "importance": 0.0696
+      },
+      {
+        "feature": "ev_knowledge_score",
+        "importance": 0.0685
+      },
+      {
+        "feature": "battery_replacement_concern",
+        "importance": 0.0621
+      },
+      {
+        "feature": "government_incentive_awareness",
+        "importance": 0.0537
+      },
+      {
+        "feature": "home_charging_available",
+        "importance": 0.0432
+      },
+      {
+        "feature": "previous_ev_experience",
+        "importance": 0.0374
+      },
+      {
+        "feature": "nearest_charging_station_km",
+        "importance": 0.026
+      },
+      {
+        "feature": "daily_commute_km",
+        "importance": 0.0055
+      },
+      {
+        "feature": "fuel_expense_per_month",
+        "importance": 0.0038
+      }
+    ],
+    "features_used": [
+      "age",
+      "annual_income",
+      "education_level",
+      "city_type",
+      "daily_commute_km",
+      "weekly_travel_distance_km",
+      "current_vehicle_type",
+      "vehicle_age_years",
+      "fuel_expense_per_month",
+      "charging_station_accessibility",
+      "nearest_charging_station_km",
+      "home_charging_available",
+      "electricity_cost_per_kwh",
+      "environmental_awareness_score",
+      "government_incentive_awareness",
+      "technology_affinity_score",
+      "range_anxiety_score",
+      "battery_replacement_concern",
+      "ev_knowledge_score",
+      "previous_ev_experience"
+    ],
+    "classes": [
+      "High",
+      "Low",
+      "Medium"
+    ]
+  },
+  "range_anxiety": {
+    "best_model": "Gradient Boosting",
+    "comparison": {
+      "Linear Regression": {
+        "mae": 1.1633,
+        "rmse": 1.4248,
+        "r2": 0.516
+      },
+      "Random Forest": {
+        "mae": 1.06,
+        "rmse": 1.2774,
+        "r2": 0.611
+      },
+      "Gradient Boosting": {
+        "mae": 1.0505,
+        "rmse": 1.2619,
+        "r2": 0.6204
+      }
+    },
+    "feature_importance": [
+      {
+        "feature": "technology_affinity_score",
+        "importance": 0.5084
+      },
+      {
+        "feature": "environmental_awareness_score",
+        "importance": 0.3451
+      },
+      {
+        "feature": "ev_knowledge_score",
+        "importance": 0.1372
+      },
+      {
+        "feature": "annual_income",
+        "importance": 0.0046
+      },
+      {
+        "feature": "fuel_expense_per_month",
+        "importance": 0.0007
+      },
+      {
+        "feature": "age",
+        "importance": 0.0006
+      },
+      {
+        "feature": "weekly_travel_distance_km",
+        "importance": 0.0005
+      },
+      {
+        "feature": "government_incentive_awareness",
+        "importance": 0.0005
+      },
+      {
+        "feature": "vehicle_age_years",
+        "importance": 0.0004
+      },
+      {
+        "feature": "daily_commute_km",
+        "importance": 0.0003
+      },
+      {
+        "feature": "charging_station_accessibility",
+        "importance": 0.0003
+      },
+      {
+        "feature": "electricity_cost_per_kwh",
+        "importance": 0.0003
+      },
+      {
+        "feature": "battery_replacement_concern",
+        "importance": 0.0003
+      },
+      {
+        "feature": "nearest_charging_station_km",
+        "importance": 0.0002
+      },
+      {
+        "feature": "previous_ev_experience",
+        "importance": 0.0002
+      }
+    ],
+    "features_used": [
+      "age",
+      "annual_income",
+      "education_level",
+      "city_type",
+      "daily_commute_km",
+      "weekly_travel_distance_km",
+      "current_vehicle_type",
+      "vehicle_age_years",
+      "fuel_expense_per_month",
+      "charging_station_accessibility",
+      "nearest_charging_station_km",
+      "home_charging_available",
+      "electricity_cost_per_kwh",
+      "environmental_awareness_score",
+      "government_incentive_awareness",
+      "technology_affinity_score",
+      "battery_replacement_concern",
+      "ev_knowledge_score",
+      "previous_ev_experience"
+    ]
+  },
+  "energy": {
+    "best_model": "Linear Regression",
+    "comparison": {
+      "Linear Regression": {
+        "mae": 24.6646,
+        "rmse": 31.0208,
+        "r2": 0.875
+      },
+      "Random Forest": {
+        "mae": 24.8891,
+        "rmse": 31.5124,
+        "r2": 0.871
+      },
+      "Gradient Boosting": {
+        "mae": 24.6839,
+        "rmse": 31.0684,
+        "r2": 0.8746
+      }
+    },
+    "feature_importance": [
+      {
+        "feature": "weekly_travel_distance_km",
+        "importance": 0.9368
+      },
+      {
+        "feature": "education_level",
+        "importance": 0.018
+      },
+      {
+        "feature": "current_vehicle_type",
+        "importance": 0.0087
+      },
+      {
+        "feature": "ev_knowledge_score",
+        "importance": 0.0066
+      },
+      {
+        "feature": "fuel_expense_per_month",
+        "importance": 0.0057
+      },
+      {
+        "feature": "city_type",
+        "importance": 0.0048
+      },
+      {
+        "feature": "environmental_awareness_score",
+        "importance": 0.0044
+      },
+      {
+        "feature": "range_anxiety_score",
+        "importance": 0.0028
+      },
+      {
+        "feature": "annual_income",
+        "importance": 0.0023
+      },
+      {
+        "feature": "electricity_cost_per_kwh",
+        "importance": 0.0016
+      },
+      {
+        "feature": "age",
+        "importance": 0.0014
+      },
+      {
+        "feature": "previous_ev_experience",
+        "importance": 0.0011
+      },
+      {
+        "feature": "battery_replacement_concern",
+        "importance": 0.001
+      },
+      {
+        "feature": "daily_commute_km",
+        "importance": 0.0009
+      },
+      {
+        "feature": "nearest_charging_station_km",
+        "importance": 0.0008
+      }
+    ],
+    "features_used": [
+      "age",
+      "annual_income",
+      "education_level",
+      "city_type",
+      "daily_commute_km",
+      "weekly_travel_distance_km",
+      "current_vehicle_type",
+      "vehicle_age_years",
+      "fuel_expense_per_month",
+      "charging_station_accessibility",
+      "nearest_charging_station_km",
+      "home_charging_available",
+      "electricity_cost_per_kwh",
+      "environmental_awareness_score",
+      "government_incentive_awareness",
+      "technology_affinity_score",
+      "range_anxiety_score",
+      "battery_replacement_concern",
+      "ev_knowledge_score",
+      "previous_ev_experience"
+    ]
+  },
+  "charging_cost": {
+    "best_model": "Gradient Boosting",
+    "comparison": {
+      "Linear Regression": {
+        "mae": 7.375,
+        "rmse": 9.6087,
+        "r2": 0.8501
+      },
+      "Random Forest": {
+        "mae": 5.499,
+        "rmse": 7.4491,
+        "r2": 0.9099
+      },
+      "Gradient Boosting": {
+        "mae": 5.4045,
+        "rmse": 7.2531,
+        "r2": 0.9146
+      }
+    },
+    "feature_importance": [
+      {
+        "feature": "weekly_travel_distance_km",
+        "importance": 0.5821
+      },
+      {
+        "feature": "electricity_cost_per_kwh",
+        "importance": 0.4162
+      },
+      {
+        "feature": "daily_commute_km",
+        "importance": 0.0006
+      },
+      {
+        "feature": "fuel_expense_per_month",
+        "importance": 0.0005
+      },
+      {
+        "feature": "annual_income",
+        "importance": 0.0001
+      },
+      {
+        "feature": "charging_station_accessibility",
+        "importance": 0.0001
+      },
+      {
+        "feature": "nearest_charging_station_km",
+        "importance": 0.0001
+      },
+      {
+        "feature": "range_anxiety_score",
+        "importance": 0.0001
+      },
+      {
+        "feature": "battery_replacement_concern",
+        "importance": 0.0001
+      },
+      {
+        "feature": "ev_knowledge_score",
+        "importance": 0.0001
+      },
+      {
+        "feature": "age",
+        "importance": 0.0
+      },
+      {
+        "feature": "vehicle_age_years",
+        "importance": 0.0
+      },
+      {
+        "feature": "home_charging_available",
+        "importance": 0.0
+      },
+      {
+        "feature": "environmental_awareness_score",
+        "importance": 0.0
+      },
+      {
+        "feature": "government_incentive_awareness",
+        "importance": 0.0
+      }
+    ],
+    "features_used": [
+      "age",
+      "annual_income",
+      "education_level",
+      "city_type",
+      "daily_commute_km",
+      "weekly_travel_distance_km",
+      "current_vehicle_type",
+      "vehicle_age_years",
+      "fuel_expense_per_month",
+      "charging_station_accessibility",
+      "nearest_charging_station_km",
+      "home_charging_available",
+      "electricity_cost_per_kwh",
+      "environmental_awareness_score",
+      "government_incentive_awareness",
+      "technology_affinity_score",
+      "range_anxiety_score",
+      "battery_replacement_concern",
+      "ev_knowledge_score",
+      "previous_ev_experience"
+    ]
+  }
+}

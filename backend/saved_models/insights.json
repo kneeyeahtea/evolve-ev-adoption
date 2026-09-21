@@ -1,0 +1,639 @@
+[
+  {
+    "title": "Charging Accessibility & Adoption Likelihood",
+    "description": "Average charging station accessibility score by adoption likelihood level.",
+    "type": "bar",
+    "data": [
+      {
+        "category": "High",
+        "value": 6.18
+      },
+      {
+        "category": "Low",
+        "value": 5.14
+      },
+      {
+        "category": "Medium",
+        "value": 5.71
+      }
+    ]
+  },
+  {
+    "title": "EV Knowledge & Adoption Likelihood",
+    "description": "Average EV knowledge score by adoption likelihood level.",
+    "type": "bar",
+    "data": [
+      {
+        "category": "High",
+        "value": 7.87
+      },
+      {
+        "category": "Low",
+        "value": 4.27
+      },
+      {
+        "category": "Medium",
+        "value": 5.72
+      }
+    ]
+  },
+  {
+    "title": "Range Anxiety vs Daily Commute",
+    "description": "Average range anxiety score across commute distance ranges.",
+    "type": "bar",
+    "data": [
+      {
+        "category": "(4.907, 23.58]",
+        "value": 5.27
+      },
+      {
+        "category": "(23.58, 42.16]",
+        "value": 5.3
+      },
+      {
+        "category": "(42.16, 60.74]",
+        "value": 5.3
+      },
+      {
+        "category": "(60.74, 79.32]",
+        "value": 5.24
+      },
+      {
+        "category": "(79.32, 97.9]",
+        "value": 5.75
+      }
+    ]
+  },
+  {
+    "title": "Home Charging vs Monthly Charging Cost",
+    "description": "Average monthly charging cost for users with and without home charging.",
+    "type": "bar",
+    "data": [
+      {
+        "category": "No Home Charging",
+        "value": 39.89
+      },
+      {
+        "category": "Has Home Charging",
+        "value": 40.42
+      }
+    ]
+  },
+  {
+    "title": "Technology Affinity & Adoption Likelihood",
+    "description": "Average technology affinity score by adoption likelihood level.",
+    "type": "bar",
+    "data": [
+      {
+        "category": "High",
+        "value": 7.81
+      },
+      {
+        "category": "Low",
+        "value": 4.41
+      },
+      {
+        "category": "Medium",
+        "value": 5.62
+      }
+    ]
+  },
+  {
+    "title": "Environmental Awareness & Adoption Likelihood",
+    "description": "Average environmental awareness score by adoption likelihood level.",
+    "type": "bar",
+    "data": [
+      {
+        "category": "High",
+        "value": 7.86
+      },
+      {
+        "category": "Low",
+        "value": 4.47
+      },
+      {
+        "category": "Medium",
+        "value": 5.92
+      }
+    ]
+  },
+  {
+    "title": "Feature Correlation Matrix",
+    "description": "Pairwise correlations between key numeric features.",
+    "type": "heatmap",
+    "data": [
+      {
+        "x": "age",
+        "y": "age",
+        "value": 1.0
+      },
+      {
+        "x": "age",
+        "y": "annual_income",
+        "value": -0.004
+      },
+      {
+        "x": "age",
+        "y": "daily_commute_km",
+        "value": -0.005
+      },
+      {
+        "x": "age",
+        "y": "charging_station_accessibility",
+        "value": -0.005
+      },
+      {
+        "x": "age",
+        "y": "environmental_awareness_score",
+        "value": -0.005
+      },
+      {
+        "x": "age",
+        "y": "technology_affinity_score",
+        "value": -0.001
+      },
+      {
+        "x": "age",
+        "y": "range_anxiety_score",
+        "value": 0.001
+      },
+      {
+        "x": "age",
+        "y": "ev_knowledge_score",
+        "value": -0.005
+      },
+      {
+        "x": "age",
+        "y": "monthly_energy_consumption_kwh",
+        "value": -0.003
+      },
+      {
+        "x": "age",
+        "y": "monthly_charging_cost",
+        "value": -0.002
+      },
+      {
+        "x": "annual_income",
+        "y": "age",
+        "value": -0.004
+      },
+      {
+        "x": "annual_income",
+        "y": "annual_income",
+        "value": 1.0
+      },
+      {
+        "x": "annual_income",
+        "y": "daily_commute_km",
+        "value": 0.0
+      },
+      {
+        "x": "annual_income",
+        "y": "charging_station_accessibility",
+        "value": 0.0
+      },
+      {
+        "x": "annual_income",
+        "y": "environmental_awareness_score",
+        "value": 0.317
+      },
+      {
+        "x": "annual_income",
+        "y": "technology_affinity_score",
+        "value": 0.449
+      },
+      {
+        "x": "annual_income",
+        "y": "range_anxiety_score",
+        "value": -0.37
+      },
+      {
+        "x": "annual_income",
+        "y": "ev_knowledge_score",
+        "value": 0.383
+      },
+      {
+        "x": "annual_income",
+        "y": "monthly_energy_consumption_kwh",
+        "value": 0.003
+      },
+      {
+        "x": "annual_income",
+        "y": "monthly_charging_cost",
+        "value": 0.004
+      },
+      {
+        "x": "daily_commute_km",
+        "y": "age",
+        "value": -0.005
+      },
+      {
+        "x": "daily_commute_km",
+        "y": "annual_income",
+        "value": 0.0
+      },
+      {
+        "x": "daily_commute_km",
+        "y": "daily_commute_km",
+        "value": 1.0
+      },
+      {
+        "x": "daily_commute_km",
+        "y": "charging_station_accessibility",
+        "value": -0.003
+      },
+      {
+        "x": "daily_commute_km",
+        "y": "environmental_awareness_score",
+        "value": 0.005
+      },
+      {
+        "x": "daily_commute_km",
+        "y": "technology_affinity_score",
+        "value": 0.005
+      },
+      {
+        "x": "daily_commute_km",
+        "y": "range_anxiety_score",
+        "value": 0.001
+      },
+      {
+        "x": "daily_commute_km",
+        "y": "ev_knowledge_score",
+        "value": 0.0
+      },
+      {
+        "x": "daily_commute_km",
+        "y": "monthly_energy_consumption_kwh",
+        "value": 0.885
+      },
+      {
+        "x": "daily_commute_km",
+        "y": "monthly_charging_cost",
+        "value": 0.676
+      },
+      {
+        "x": "charging_station_accessibility",
+        "y": "age",
+        "value": -0.005
+      },
+      {
+        "x": "charging_station_accessibility",
+        "y": "annual_income",
+        "value": 0.0
+      },
+      {
+        "x": "charging_station_accessibility",
+        "y": "daily_commute_km",
+        "value": -0.003
+      },
+      {
+        "x": "charging_station_accessibility",
+        "y": "charging_station_accessibility",
+        "value": 1.0
+      },
+      {
+        "x": "charging_station_accessibility",
+        "y": "environmental_awareness_score",
+        "value": 0.004
+      },
+      {
+        "x": "charging_station_accessibility",
+        "y": "technology_affinity_score",
+        "value": 0.004
+      },
+      {
+        "x": "charging_station_accessibility",
+        "y": "range_anxiety_score",
+        "value": -0.001
+      },
+      {
+        "x": "charging_station_accessibility",
+        "y": "ev_knowledge_score",
+        "value": 0.007
+      },
+      {
+        "x": "charging_station_accessibility",
+        "y": "monthly_energy_consumption_kwh",
+        "value": -0.0
+      },
+      {
+        "x": "charging_station_accessibility",
+        "y": "monthly_charging_cost",
+        "value": -0.002
+      },
+      {
+        "x": "environmental_awareness_score",
+        "y": "age",
+        "value": -0.005
+      },
+      {
+        "x": "environmental_awareness_score",
+        "y": "annual_income",
+        "value": 0.317
+      },
+      {
+        "x": "environmental_awareness_score",
+        "y": "daily_commute_km",
+        "value": 0.005
+      },
+      {
+        "x": "environmental_awareness_score",
+        "y": "charging_station_accessibility",
+        "value": 0.004
+      },
+      {
+        "x": "environmental_awareness_score",
+        "y": "environmental_awareness_score",
+        "value": 1.0
+      },
+      {
+        "x": "environmental_awareness_score",
+        "y": "technology_affinity_score",
+        "value": 0.517
+      },
+      {
+        "x": "environmental_awareness_score",
+        "y": "range_anxiety_score",
+        "value": -0.622
+      },
+      {
+        "x": "environmental_awareness_score",
+        "y": "ev_knowledge_score",
+        "value": 0.752
+      },
+      {
+        "x": "environmental_awareness_score",
+        "y": "monthly_energy_consumption_kwh",
+        "value": 0.005
+      },
+      {
+        "x": "environmental_awareness_score",
+        "y": "monthly_charging_cost",
+        "value": 0.003
+      },
+      {
+        "x": "technology_affinity_score",
+        "y": "age",
+        "value": -0.001
+      },
+      {
+        "x": "technology_affinity_score",
+        "y": "annual_income",
+        "value": 0.449
+      },
+      {
+        "x": "technology_affinity_score",
+        "y": "daily_commute_km",
+        "value": 0.005
+      },
+      {
+        "x": "technology_affinity_score",
+        "y": "charging_station_accessibility",
+        "value": 0.004
+      },
+      {
+        "x": "technology_affinity_score",
+        "y": "environmental_awareness_score",
+        "value": 0.517
+      },
+      {
+        "x": "technology_affinity_score",
+        "y": "technology_affinity_score",
+        "value": 1.0
+      },
+      {
+        "x": "technology_affinity_score",
+        "y": "range_anxiety_score",
+        "value": -0.629
+      },
+      {
+        "x": "technology_affinity_score",
+        "y": "ev_knowledge_score",
+        "value": 0.756
+      },
+      {
+        "x": "technology_affinity_score",
+        "y": "monthly_energy_consumption_kwh",
+        "value": 0.007
+      },
+      {
+        "x": "technology_affinity_score",
+        "y": "monthly_charging_cost",
+        "value": 0.01
+      },
+      {
+        "x": "range_anxiety_score",
+        "y": "age",
+        "value": 0.001
+      },
+      {
+        "x": "range_anxiety_score",
+        "y": "annual_income",
+        "value": -0.37
+      },
+      {
+        "x": "range_anxiety_score",
+        "y": "daily_commute_km",
+        "value": 0.001
+      },
+      {
+        "x": "range_anxiety_score",
+        "y": "charging_station_accessibility",
+        "value": -0.001
+      },
+      {
+        "x": "range_anxiety_score",
+        "y": "environmental_awareness_score",
+        "value": -0.622
+      },
+      {
+        "x": "range_anxiety_score",
+        "y": "technology_affinity_score",
+        "value": -0.629
+      },
+      {
+        "x": "range_anxiety_score",
+        "y": "range_anxiety_score",
+        "value": 1.0
+      },
+      {
+        "x": "range_anxiety_score",
+        "y": "ev_knowledge_score",
+        "value": -0.625
+      },
+      {
+        "x": "range_anxiety_score",
+        "y": "monthly_energy_consumption_kwh",
+        "value": 0.0
+      },
+      {
+        "x": "range_anxiety_score",
+        "y": "monthly_charging_cost",
+        "value": -0.003
+      },
+      {
+        "x": "ev_knowledge_score",
+        "y": "age",
+        "value": -0.005
+      },
+      {
+        "x": "ev_knowledge_score",
+        "y": "annual_income",
+        "value": 0.383
+      },
+      {
+        "x": "ev_knowledge_score",
+        "y": "daily_commute_km",
+        "value": 0.0
+      },
+      {
+        "x": "ev_knowledge_score",
+        "y": "charging_station_accessibility",
+        "value": 0.007
+      },
+      {
+        "x": "ev_knowledge_score",
+        "y": "environmental_awareness_score",
+        "value": 0.752
+      },
+      {
+        "x": "ev_knowledge_score",
+        "y": "technology_affinity_score",
+        "value": 0.756
+      },
+      {
+        "x": "ev_knowledge_score",
+        "y": "range_anxiety_score",
+        "value": -0.625
+      },
+      {
+        "x": "ev_knowledge_score",
+        "y": "ev_knowledge_score",
+        "value": 1.0
+      },
+      {
+        "x": "ev_knowledge_score",
+        "y": "monthly_energy_consumption_kwh",
+        "value": 0.002
+      },
+      {
+        "x": "ev_knowledge_score",
+        "y": "monthly_charging_cost",
+        "value": 0.006
+      },
+      {
+        "x": "monthly_energy_consumption_kwh",
+        "y": "age",
+        "value": -0.003
+      },
+      {
+        "x": "monthly_energy_consumption_kwh",
+        "y": "annual_income",
+        "value": 0.003
+      },
+      {
+        "x": "monthly_energy_consumption_kwh",
+        "y": "daily_commute_km",
+        "value": 0.885
+      },
+      {
+        "x": "monthly_energy_consumption_kwh",
+        "y": "charging_station_accessibility",
+        "value": -0.0
+      },
+      {
+        "x": "monthly_energy_consumption_kwh",
+        "y": "environmental_awareness_score",
+        "value": 0.005
+      },
+      {
+        "x": "monthly_energy_consumption_kwh",
+        "y": "technology_affinity_score",
+        "value": 0.007
+      },
+      {
+        "x": "monthly_energy_consumption_kwh",
+        "y": "range_anxiety_score",
+        "value": 0.0
+      },
+      {
+        "x": "monthly_energy_consumption_kwh",
+        "y": "ev_knowledge_score",
+        "value": 0.002
+      },
+      {
+        "x": "monthly_energy_consumption_kwh",
+        "y": "monthly_energy_consumption_kwh",
+        "value": 1.0
+      },
+      {
+        "x": "monthly_energy_consumption_kwh",
+        "y": "monthly_charging_cost",
+        "value": 0.765
+      },
+      {
+        "x": "monthly_charging_cost",
+        "y": "age",
+        "value": -0.002
+      },
+      {
+        "x": "monthly_charging_cost",
+        "y": "annual_income",
+        "value": 0.004
+      },
+      {
+        "x": "monthly_charging_cost",
+        "y": "daily_commute_km",
+        "value": 0.676
+      },
+      {
+        "x": "monthly_charging_cost",
+        "y": "charging_station_accessibility",
+        "value": -0.002
+      },
+      {
+        "x": "monthly_charging_cost",
+        "y": "environmental_awareness_score",
+        "value": 0.003
+      },
+      {
+        "x": "monthly_charging_cost",
+        "y": "technology_affinity_score",
+        "value": 0.01
+      },
+      {
+        "x": "monthly_charging_cost",
+        "y": "range_anxiety_score",
+        "value": -0.003
+      },
+      {
+        "x": "monthly_charging_cost",
+        "y": "ev_knowledge_score",
+        "value": 0.006
+      },
+      {
+        "x": "monthly_charging_cost",
+        "y": "monthly_energy_consumption_kwh",
+        "value": 0.765
+      },
+      {
+        "x": "monthly_charging_cost",
+        "y": "monthly_charging_cost",
+        "value": 1.0
+      }
+    ],
+    "features": [
+      "age",
+      "annual_income",
+      "daily_commute_km",
+      "charging_station_accessibility",
+      "environmental_awareness_score",
+      "technology_affinity_score",
+      "range_anxiety_score",
+      "ev_knowledge_score",
+      "monthly_energy_consumption_kwh",
+      "monthly_charging_cost"
+    ]
+  }
+]

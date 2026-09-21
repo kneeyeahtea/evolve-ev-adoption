@@ -1,0 +1,16 @@
+import pandas as pd
+df = pd.read_csv(r'C:\Users\niyat\.gemini\antigravity\scratch\ev_adoption_app\backend\data\global_ev_adoption_behavior_2026.csv')
+print('Shape:', df.shape)
+print('\nColumns:')
+print(list(df.columns))
+print('\nDtypes:')
+print(df.dtypes)
+print('\nFirst 3 rows:')
+print(df.head(3).to_string())
+print('\nDescribe:')
+print(df.describe().to_string())
+print('\nUnique values for object cols:')
+for c in df.select_dtypes(include='object').columns:
+    print(f'{c}: {df[c].unique()[:10]}')
+print('\nNull counts:')
+print(df.isnull().sum())

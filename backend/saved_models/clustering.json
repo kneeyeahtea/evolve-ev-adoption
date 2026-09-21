@@ -1,0 +1,62 @@
+{
+  "n_clusters": 4,
+  "features_used": [
+    "environmental_awareness_score",
+    "technology_affinity_score",
+    "ev_knowledge_score",
+    "range_anxiety_score",
+    "charging_station_accessibility",
+    "daily_commute_km",
+    "previous_ev_experience"
+  ],
+  "clusters": [
+    {
+      "environmental_awareness_score": 5.03,
+      "technology_affinity_score": 4.77,
+      "ev_knowledge_score": 4.8,
+      "range_anxiety_score": 7.31,
+      "charging_station_accessibility": 5.9,
+      "daily_commute_km": 35.11,
+      "previous_ev_experience": 0.14,
+      "size": 17884,
+      "cluster_id": 0,
+      "label": "Charging-Constrained"
+    },
+    {
+      "environmental_awareness_score": 7.92,
+      "technology_affinity_score": 7.93,
+      "ev_knowledge_score": 7.94,
+      "range_anxiety_score": 4.05,
+      "charging_station_accessibility": 4.07,
+      "daily_commute_km": 36.52,
+      "previous_ev_experience": 0.0,
+      "size": 11764,
+      "cluster_id": 1,
+      "label": "Tech-Savvy EV Enthusiast"
+    },
+    {
+      "environmental_awareness_score": 7.59,
+      "technology_affinity_score": 7.52,
+      "ev_knowledge_score": 7.58,
+      "range_anxiety_score": 4.45,
+      "charging_station_accessibility": 5.87,
+      "daily_commute_km": 35.19,
+      "previous_ev_experience": 1.0,
+      "size": 7233,
+      "cluster_id": 2,
+      "label": "Tech-Savvy EV Enthusiast"
+    },
+    {
+      "environmental_awareness_score": 7.98,
+      "technology_affinity_score": 7.95,
+      "ev_knowledge_score": 8.0,
+      "range_anxiety_score": 4.01,
+      "charging_station_accessibility": 7.65,
+      "daily_commute_km": 33.93,
+      "previous_ev_experience": 0.0,
+      "size": 12121,
+      "cluster_id": 3,
+      "label": "Tech-Savvy EV Enthusiast"
+    }
+  ]
+}
